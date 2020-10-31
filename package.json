@@ -1,0 +1,48 @@
+{
+  "name": "react-starter-template",
+  "version": "1.0.0",
+  "description": "A react starter template with pre-configured infrastructures like webpack, support for ES6, Eslint, and babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx webpack-dev-server --no-inline  --mode development",
+    "build": "npx webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NdubuisiJr/react-starter-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NdubuisiJr/react-starter-template/issues"
+  },
+  "homepage": "https://github.com/NdubuisiJr/react-starter-template#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "node-fetch": "^2.6.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "styled-components": "^5.1.1"
+  }
+}
